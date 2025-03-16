@@ -5,7 +5,7 @@ public class Pichkari {
     boolean isAutomatic;
 
     public Pichkari() {
-        this("NoBrand", "Blue", "1 Liter", 30, 100.0, false);
+        this("NoBrand",30,100.0,false, "Blue", "1 Liter");
         System.out.println("Pichkari: Default constructor called");
     }
 

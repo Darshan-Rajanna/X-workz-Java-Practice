@@ -1,4 +1,4 @@
-public class Main {
+public class Main{
     public static void main(String[] args) {
         // 5 instances for each class
         Anklet anklet1 = new Anklet("Malabar", "Gold", 1000);
