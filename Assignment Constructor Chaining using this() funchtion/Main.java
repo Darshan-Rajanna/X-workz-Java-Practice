@@ -3,6 +3,7 @@ public class Main {
         // Creating 7 instances of each class and calling display()
         
         // Pichkari Instances
+        System.out.println("Pichkari Instance");
         Pichkari p1 = new Pichkari();
         Pichkari p2 = new Pichkari("SuperSoaker");
         Pichkari p3 = new Pichkari("SuperSoaker", 40);
@@ -18,8 +19,10 @@ public class Main {
         p5.display();
         p6.display();
         p7.display();
+        System.out.println("\n");
 
         // Color Instances
+        System.out.println("Color Instance");
         Color c1 = new Color();
         Color c2 = new Color("Red");
         Color c3 = new Color("Red", "Organic");
@@ -35,8 +38,10 @@ public class Main {
         c5.display();
         c6.display();
         c7.display();
+        System.out.println("\n");
 
         // Egg Instances
+        System.out.println("Egg Instance");
         Egg e1 = new Egg();
         Egg e2 = new Egg("Chicken");
         Egg e3 = new Egg("Chicken", "Brown");
@@ -52,8 +57,10 @@ public class Main {
         e5.display();
         e6.display();
         e7.display();
+        System.out.println("\n");
 
         // Bucket Instances
+        System.out.println("Bucket Instance");
         Bucket b1 = new Bucket();
         Bucket b2 = new Bucket("Plastic");
         Bucket b3 = new Bucket("Plastic", "Blue");
@@ -69,8 +76,10 @@ public class Main {
         b5.display();
         b6.display();
         b7.display();
+        System.out.println("\n");
 
         // Gun Instances
+        System.out.println("Gun Instance");
         Gun g1 = new Gun();
         Gun g2 = new Gun("Nerf");
         Gun g3 = new Gun("Nerf", "Toy Gun");
@@ -86,8 +95,10 @@ public class Main {
         g5.display();
         g6.display();
         g7.display();
+        System.out.println("\n");
 
         // NailPolish Instances
+        System.out.println("NailPolish Instance");
         NailPolish n1 = new NailPolish();
         NailPolish n2 = new NailPolish("Lakme");
         NailPolish n3 = new NailPolish("Lakme", "Red");
@@ -103,8 +114,10 @@ public class Main {
         n5.display();
         n6.display();
         n7.display();
+        System.out.println("\n");
 
         // Tomato Instances
+        System.out.println("Tomato Instance");
         Tomato t1 = new Tomato();
         Tomato t2 = new Tomato("Cherry Tomato");
         Tomato t3 = new Tomato("Cherry Tomato", "Red");
@@ -120,8 +133,10 @@ public class Main {
         t5.display();
         t6.display();
         t7.display();
+        System.out.println("\n");
 
         // Water Instances
+        System.out.println("Water Instance");
         Water w1 = new Water();
         Water w2 = new Water("River");
         Water w3 = new Water("River", "Saltwater");
@@ -137,8 +152,10 @@ public class Main {
         w5.display();
         w6.display();
         w7.display();
+        System.out.println("\n");
 
         // WaterBall Instances
+        System.out.println("WaterBall Instance");
         WaterBall wb1 = new WaterBall();
         WaterBall wb2 = new WaterBall("Rubber");
         WaterBall wb3 = new WaterBall("Rubber", "Red");
@@ -154,7 +171,10 @@ public class Main {
         wb5.display();
         wb6.display();
         wb7.display();
+        System.out.println("\n");
 
+        // Holi Instances
+        System.out.println("Holi Instance");
         Holi h1 = new Holi();
         Holi h2 = new Holi("Holi");
         Holi h3 = new Holi("Holi", "India");
