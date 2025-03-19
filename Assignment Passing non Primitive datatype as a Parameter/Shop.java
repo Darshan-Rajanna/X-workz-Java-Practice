@@ -10,7 +10,7 @@ public class Shop {
 
     static class Display {
         void run() {
-            System.out.println("Ad is being displayed");
+            System.out.println("Ad is being displayed infront of Shop");
         }
     }
 }

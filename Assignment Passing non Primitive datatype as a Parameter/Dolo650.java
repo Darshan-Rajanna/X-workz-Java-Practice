@@ -2,8 +2,9 @@ class Dolo650 {
     void sell(MedicineStore medicineStore) {
         if (medicineStore != null) {
             medicineStore.description();
+            System.out.println("MedicineStore is not null");
         } else {
-            System.out.println("Dolo650 object is null, cannot sell medicine");
+            System.out.println("MedicineStore object is null, cannot sell medicine");
         }
     }
     static class MedicineStore {
