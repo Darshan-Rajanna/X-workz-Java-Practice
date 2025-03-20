@@ -3,6 +3,7 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 .idea/
+Assesment Passing non Primitive data type and Package usage using IntelliJ.iml
 
 ### Eclipse ###
 .apt_generated
