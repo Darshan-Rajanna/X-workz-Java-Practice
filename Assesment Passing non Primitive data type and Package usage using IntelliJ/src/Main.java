@@ -1,15 +1,38 @@
+import com.xworkz.services.Pushpa;
+import com.xworkz.entities.*;
+import com.xworkz.models.Virat;
+import com.xworkz.enums.*;
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
+        System.out.println("Pushpa Class Demonstration with useclip() function ");
+            Clip[] clips = {
+                    new Clip("Red"),
+                    new Clip("Blue"),
+                    new Clip("Green"),
+                    new Clip("Yellow"),
+                    new Clip("Black")
+            };
+
+            Pushpa pushpa = new Pushpa();
+            pushpa.useClip(clips);
+
+        System.out.println("-----------------------------------");
+
+        Brush brush = new Brush(Color.BLUE);
+        Clip clip = new Clip("Black");
+        Ticket ticket = new Ticket(TicketType.VIP, 5000);
+        Cricket cricket = new Cricket(ticket);
+
+        System.out.println("Virat Class with all entities involved");
+        System.out.println("------------------------------------");
+        Virat virat = new Virat(brush, clip, cricket, ticket);
+
+        virat.play();
+        virat.clean();
+        virat.relax();
+        virat.gift();
         }
-    }
 }
