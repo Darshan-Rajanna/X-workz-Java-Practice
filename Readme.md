@@ -5,3 +5,4 @@
 - Assignment Instace Variable & Constructor using this keyword: Assignment of 12 March 2025
 - Assignment Constructor Chaining using this() function: Assignment of 14 March 2025
 - Assignment Passing non Primitive datatype as a Parameter : Assignment of 18 March 2025
+- Assignment Passing non Primitive data type and Package usage using IntelliJ : Assignment of 20 March 2025
