@@ -2,6 +2,7 @@
 package com.xworkz.Main.methods;
 import com.xworkz.Main.variables.Variables;
 import com.xworkz.Main.Main;
+import com.xworkz.Main.methods.PrivateMethod;
 
 public class Method extends Main {
     public void publicMethod(){
@@ -11,7 +12,9 @@ public class Method extends Main {
         defaultMethod();
         protectedMethod();
 
+        PrivateMethod PrivateMethod1 = new PrivateMethod();
         System.out.println("I can access the public variables of other classes and packages and private methods of same package but not from other packages");
+        PrivateMethod1.privateMethod();
         Variables variables=new Variables();
         System.out.println("I can access an public variable : "+variables.intNumber);
         System.out.println("I cannot access an private variable of other package by instance");
