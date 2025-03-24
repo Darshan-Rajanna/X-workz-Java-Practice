@@ -1,7 +1,7 @@
 
-package com.xworkz.assignement.Main.methods;
-import com.xworkz.assignement.Main.variables.Variables;
-import com.xworkz.assignement.Main.Main;
+package com.xworkz.Main.methods;
+import com.xworkz.Main.variables.Variables;
+import com.xworkz.Main.Main;
 
 public class Method extends Main {
     public void publicMethod(){

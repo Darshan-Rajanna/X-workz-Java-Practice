@@ -1,9 +1,9 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 
-package com.xworkz.assignement.Main;
-import com.xworkz.assignement.Main.methods.Method;
-import com.xworkz.assignement.Main.variables.Variables;
+package com.xworkz.Main;
+import com.xworkz.Main.methods.Method;
+import com.xworkz.Main.variables.Variables;
 
 public class Main {
     protected String stringvar="protected string from Main method";

@@ -1,4 +1,4 @@
-package com.xworkz.assignement.Main.variables;
+package com.xworkz.Main.variables;
 
 public class Variables {
 
