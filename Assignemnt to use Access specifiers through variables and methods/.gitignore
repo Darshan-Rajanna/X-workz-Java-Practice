@@ -4,6 +4,7 @@ out/
 !**/src/test/**/out/
 .idea
 Assignemnt to use Access specifiers through variables and methods.iml
+.gitignore
 
 ### Eclipse ###
 .apt_generated
