@@ -4,6 +4,7 @@ out/
 !**/src/test/**/out/
 .idea/
 Classes and has-a relations.iml
+.gitignore
 
 ### Eclipse ###
 .apt_generated
