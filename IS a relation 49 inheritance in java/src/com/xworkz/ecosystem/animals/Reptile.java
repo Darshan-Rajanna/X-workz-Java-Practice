@@ -27,3 +27,4 @@ public class Reptile extends Animal {
         System.out.println(name + " uses camouflage to blend into its surroundings.");
     }
 }
+

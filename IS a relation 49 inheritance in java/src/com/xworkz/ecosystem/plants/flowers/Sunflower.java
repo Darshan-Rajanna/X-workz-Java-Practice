@@ -11,3 +11,4 @@ public class Sunflower extends FloweringPlant {
         System.out.println(name + " moves its head towards the sun.");
     }
 }
+

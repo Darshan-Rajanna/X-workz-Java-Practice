@@ -11,3 +11,4 @@ public class Rose extends FloweringPlant {
         System.out.println(name + " has thorns on its stem for protection.");
     }
 }
+

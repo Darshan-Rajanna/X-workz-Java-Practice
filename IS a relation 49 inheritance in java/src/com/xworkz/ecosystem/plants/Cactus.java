@@ -27,3 +27,4 @@ public class Cactus extends Plant {
         System.out.println(name + " is used for food, medicine, and water in deserts.");
     }
 }
+

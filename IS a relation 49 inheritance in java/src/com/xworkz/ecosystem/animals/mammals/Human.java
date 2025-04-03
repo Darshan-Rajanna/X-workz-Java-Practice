@@ -11,3 +11,4 @@ public class Human extends Mammal {
         System.out.println(name + " can communicate using complex languages.");
     }
 }
+

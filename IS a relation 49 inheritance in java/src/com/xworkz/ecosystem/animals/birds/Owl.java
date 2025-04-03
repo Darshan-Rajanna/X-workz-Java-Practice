@@ -11,3 +11,4 @@ public class Owl extends Bird {
         System.out.println(name + " has excellent night vision for hunting in darkness.");
     }
 }
+

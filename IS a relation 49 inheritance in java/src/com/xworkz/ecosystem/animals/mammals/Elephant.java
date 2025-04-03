@@ -10,3 +10,4 @@ public class Elephant extends Mammal {
         System.out.println(name + " uses its trunk for various activities like drinking water.");
     }
 }
+

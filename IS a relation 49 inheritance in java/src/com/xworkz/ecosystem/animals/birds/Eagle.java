@@ -8,6 +8,6 @@ public class Eagle extends Bird {
     }
 
     public void huntPrey() {
-        System.out.println(name + " hunts using sharp talons and keen eyesight.");
+        System.out.println(name  + " hunts using sharp talons and keen eyesight.");
     }
 }

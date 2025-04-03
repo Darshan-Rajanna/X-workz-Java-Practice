@@ -11,4 +11,3 @@ public class Flamingo extends Bird {
         System.out.println(name + " filters small organisms from water using its beak.");
     }
 }
-

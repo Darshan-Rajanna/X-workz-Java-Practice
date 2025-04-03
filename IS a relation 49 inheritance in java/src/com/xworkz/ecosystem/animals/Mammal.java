@@ -27,3 +27,4 @@ public class Mammal extends Animal {
         System.out.println(name + " breathes air through lungs.");
     }
 }
+

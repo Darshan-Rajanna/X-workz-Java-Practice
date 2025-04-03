@@ -10,3 +10,4 @@ public class Dolphin extends Mammal {
         System.out.println(name + " uses echolocation to navigate and find prey.");
     }
 }
+

@@ -11,3 +11,4 @@ public class Yeast extends Fungi {
         System.out.println(name + " is fermenting sugar into alcohol or gas.");
     }
 }
+

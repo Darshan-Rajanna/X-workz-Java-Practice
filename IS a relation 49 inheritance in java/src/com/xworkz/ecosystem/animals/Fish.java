@@ -27,3 +27,4 @@ public class Fish extends Animal {
         System.out.println(name + " has fins to navigate through water.");
     }
 }
+

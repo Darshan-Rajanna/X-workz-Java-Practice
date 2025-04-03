@@ -25,3 +25,4 @@ public class Animal extends Organism {
         System.out.println(name + " is defending itself from threats.");
     }
 }
+

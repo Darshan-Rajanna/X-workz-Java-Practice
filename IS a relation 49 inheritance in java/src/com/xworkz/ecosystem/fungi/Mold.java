@@ -11,3 +11,4 @@ public class Mold extends Fungi {
         System.out.println(name + " is infecting plants and causing Moulds.");
     }
 }
+

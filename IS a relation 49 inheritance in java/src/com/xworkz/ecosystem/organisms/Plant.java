@@ -25,3 +25,4 @@ public class Plant extends Organism {
         System.out.println(name + " is responding to light, gravity, and touch.");
     }
 }
+

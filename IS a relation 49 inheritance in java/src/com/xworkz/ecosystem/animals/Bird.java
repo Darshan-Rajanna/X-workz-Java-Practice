@@ -26,3 +26,4 @@ public class Bird extends Animal {
         System.out.println(name + " migrates seasonally for better living conditions.");
     }
 }
+

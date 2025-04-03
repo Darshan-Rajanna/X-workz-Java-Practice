@@ -9,3 +9,4 @@ public class Bat extends Mammal {
         System.out.println(name + " is the only mammal capable of true flight.");
     }
 }
+

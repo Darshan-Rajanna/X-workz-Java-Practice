@@ -27,3 +27,4 @@ public class Amphibian extends Animal {
         System.out.println(name + " is cold-blooded and relies on the environment for body heat.");
     }
 }
+

@@ -11,3 +11,4 @@ public class Lichen extends Fungi {
         System.out.println(name + " is living in a mutualistic relationship with algae.");
     }
 }
+

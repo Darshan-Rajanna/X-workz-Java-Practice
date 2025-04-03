@@ -18,7 +18,6 @@ public class AquaticPlant extends Plant {
     public void provideHabitatForAquaticLife() {
         System.out.println(name + " provides shelter and food for aquatic organisms.");
     }
-
     public void helpOxygenateWater() {
         System.out.println(name + " helps oxygenate water, benefiting marine life.");
     }

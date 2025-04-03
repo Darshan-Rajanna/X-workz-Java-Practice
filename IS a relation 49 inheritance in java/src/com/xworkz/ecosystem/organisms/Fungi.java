@@ -25,3 +25,4 @@ public class Fungi extends Organism {
         System.out.println(name + " is growing in colonies.");
     }
 }
+

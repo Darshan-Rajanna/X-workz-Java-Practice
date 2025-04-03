@@ -27,3 +27,4 @@ public class FloweringPlant extends Plant {
         System.out.println(name + " is used in medicine and herbal remedies.");
     }
 }
+

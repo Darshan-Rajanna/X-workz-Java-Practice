@@ -27,3 +27,4 @@ public class Insect extends Animal {
         System.out.println(name + " uses antennae to sense its surroundings.");
     }
 }
+
