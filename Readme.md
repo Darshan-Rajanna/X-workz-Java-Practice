@@ -10,3 +10,6 @@
 - Assignemnt to use Access specifiers through variables and method : Assignment of 24 March 2025
 - Assignment to use class as variable in other class : Assignment of 25 March 2025
 - Assignemt to Demonstrate Encapsulation : Assignment of 26 March 2025
+- Classes and has-a relations : Assignment of 27 March 2025
+- Inheritance concept simple Demonstration : Assignment of 2 April 2025
+- IS a relation 100 inheritance in java : Assignment of 3 April 2025
