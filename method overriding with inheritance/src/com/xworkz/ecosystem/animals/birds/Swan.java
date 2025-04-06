@@ -3,15 +3,33 @@ package com.xworkz.ecosystem.animals.birds;
 import com.xworkz.ecosystem.animals.Bird;
 
 public class Swan extends Bird {
+
     public Swan() {
-        super("Swan", "Lakes and ponds");
+        super("Swan", "Lakes, rivers, and wetlands");
     }
 
-    public void gracefulMovement() {
-        System.out.println(name + " moves gracefully on water.");
+    @Override
+    public void fly() {
+        System.out.println(name + " flies gracefully in V-shaped formations.");
     }
 
-    public void monogamousBehavior() {
-        System.out.println(name + " forms lifelong bonds with a mate.");
+    @Override
+    public void layEggs() {
+        System.out.println(name + " lays eggs in large nests near water.");
+    }
+
+    @Override
+    public void buildNest() {
+        System.out.println(name + " builds nests using reeds and grasses.");
+    }
+
+    @Override
+    public void sing() {
+        System.out.println(name + " makes hissing or trumpeting calls.");
+    }
+
+    @Override
+    public void migrate() {
+        System.out.println(name + " migrates seasonally to avoid freezing lakes.");
     }
 }

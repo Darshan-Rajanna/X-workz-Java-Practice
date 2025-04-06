@@ -4,14 +4,31 @@ import com.xworkz.ecosystem.plants.Tree;
 
 public class CherryBlossom extends Tree {
     public CherryBlossom() {
-        super("Cherry Blossom", "Japan, Korea, temperate regions");
+        super("Cherry Blossom Tree", "Temperate regions and ornamental gardens");
     }
 
-    public void bloomSeasonally() {
-        System.out.println(name + " blooms with beautiful pink and white flowers in spring.");
+    @Override
+    public void growTall() {
+        System.out.println(name + " grows to a moderate height with beautiful spring blooms.");
     }
 
-    public void symbolizeRenewal() {
-        System.out.println(name + " is a symbol of renewal and the fleeting nature of life.");
+    @Override
+    public void shedLeaves() {
+        System.out.println(name + " sheds leaves in autumn after its spring bloom.");
+    }
+
+    @Override
+    public void provideOxygen() {
+        System.out.println(name + " contributes to fresh air in urban landscapes.");
+    }
+
+    @Override
+    public void produceFruitsOrSeeds() {
+        System.out.println(name + " may produce small cherries depending on the variety.");
+    }
+
+    @Override
+    public void supportEcosystem() {
+        System.out.println(name + " attracts pollinators and beautifies the environment.");
     }
 }

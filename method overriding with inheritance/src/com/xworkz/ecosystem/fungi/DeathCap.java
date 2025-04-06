@@ -3,11 +3,32 @@ package com.xworkz.ecosystem.fungi;
 import com.xworkz.ecosystem.organisms.Fungi;
 
 public class DeathCap extends Fungi {
-    public DeathCap() {
-        super("Death Cap", "Forests, near oak and pine trees");
+    public DeathCap(String name, String habitat) {
+        super("DeathCap", "Forests");
     }
 
-    public void highlyPoisonous() {
-        System.out.println(name + " is one of the most poisonous mushrooms in the world.");
+    @Override
+    protected void decomposeOrganicMatter() {
+        System.out.println(name + " decomposes organic matter in forest litter.");
+    }
+
+    @Override
+    protected void formMyceliumNetwork() {
+        System.out.println(name + " forms a dense mycelium underground.");
+    }
+
+    @Override
+    protected void produceSpores() {
+        System.out.println(name + " produces deadly spores for reproduction.");
+    }
+
+    @Override
+    protected void absorbWaterAndNutrients() {
+        System.out.println(name + " absorbs water and nutrients through roots.");
+    }
+
+    @Override
+    protected void formMutualisticRelationships() {
+        System.out.println(name + " forms symbiotic relationships with tree roots.");
     }
 }

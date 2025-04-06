@@ -16,6 +16,7 @@ public class Organism {
         this.nutritionType = nutritionType;
     }
 
+    // These methods can now be overridden in subclasses
     public void grow() {
         System.out.println(name + " is growing.");
     }

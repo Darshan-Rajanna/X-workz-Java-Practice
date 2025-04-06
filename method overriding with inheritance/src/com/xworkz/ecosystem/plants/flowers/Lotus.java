@@ -4,14 +4,31 @@ import com.xworkz.ecosystem.plants.FloweringPlant;
 
 public class Lotus extends FloweringPlant {
     public Lotus() {
-        super("Lotus", "Ponds, lakes, wetlands");
+        super("Lotus", "Freshwater ponds and lakes");
     }
 
-    public void floatOnWater() {
-        System.out.println(name + " floats on water with its broad leaves.");
+    @Override
+    public void produceFlowers() {
+        System.out.println(name + " produces large, pink or white floating flowers.");
     }
 
-    public void symbolicSignificance() {
-        System.out.println(name + " is a symbol of purity and enlightenment in many cultures.");
+    @Override
+    public void attractPollinators() {
+        System.out.println(name + " attracts bees and beetles.");
+    }
+
+    @Override
+    public void produceFruits() {
+        System.out.println(name + " produces spongy pods containing seeds.");
+    }
+
+    @Override
+    public void contributeToBiodiversity() {
+        System.out.println(name + " supports aquatic biodiversity and improves habitat structure.");
+    }
+
+    @Override
+    public void usedForMedicinalPurposes() {
+        System.out.println(name + " is used in Ayurveda and traditional Chinese medicine.");
     }
 }

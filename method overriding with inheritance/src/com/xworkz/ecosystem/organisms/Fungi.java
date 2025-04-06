@@ -1,28 +1,54 @@
 package com.xworkz.ecosystem.organisms;
 
 public class Fungi extends Organism {
+
     public Fungi(String name, String habitat) {
         super(name, habitat, true, "Asexual/Sexual", "Saprophytic");
     }
 
-    public void decompose() {
-        System.out.println(name + " is decomposing organic material.");
+    @Override
+    public void grow() {
+        System.out.println(name + " the fungus is growing through hyphal extension.");
     }
 
-    public void reproduceBySpores() {
-        System.out.println(name + " is reproducing through spores.");
+    @Override
+    public void reproduce() {
+        System.out.println(name + " reproduces asexually or sexually through spores.");
     }
 
-    public void absorbNutrients() {
-        System.out.println(name + " is absorbing nutrients from its surroundings.");
+    @Override
+    public void respire() {
+        System.out.println(name + " respires aerobically or anaerobically depending on the environment.");
     }
 
-    public void formSymbioticRelationships() {
-        System.out.println(name + " is forming symbiotic relationships with plants or other organisms.");
+    @Override
+    public void respondToStimuli() {
+        System.out.println(name + " responds to moisture, temperature, and nutrient availability.");
     }
 
-    public void growInColonies() {
-        System.out.println(name + " is growing in colonies.");
+    @Override
+    public void obtainNutrition() {
+        System.out.println(name + " absorbs decomposed organic matter from its surroundings.");
+    }
+
+    // Additional behaviors unique to Fungi class
+    protected void decomposeOrganicMatter() {
+        System.out.println(name + " is decomposing dead plants and animals.");
+    }
+
+    protected void formMyceliumNetwork() {
+        System.out.println(name + " is forming an underground mycelium network.");
+    }
+
+    protected void produceSpores() {
+        System.out.println(name + " is producing microscopic spores for reproduction.");
+    }
+
+    protected void absorbWaterAndNutrients() {
+        System.out.println(name + " is absorbing water and nutrients through its hyphae.");
+    }
+
+    protected void formMutualisticRelationships() {
+        System.out.println(name + " is forming mutualistic relationships, such as mycorrhiza with plants.");
     }
 }
-

@@ -7,11 +7,28 @@ public class Hibiscus extends FloweringPlant {
         super("Hibiscus", "Tropical and subtropical regions");
     }
 
-    public void medicinalProperties() {
-        System.out.println(name + " is used in herbal medicines and hair care.");
+    @Override
+    public void produceFlowers() {
+        System.out.println(name + " produces large, colorful trumpet-shaped flowers.");
     }
 
+    @Override
     public void attractPollinators() {
-        System.out.println(name + " attracts bees and butterflies for pollination.");
+        System.out.println(name + " attracts bees, butterflies, and hummingbirds.");
+    }
+
+    @Override
+    public void produceFruits() {
+        System.out.println(name + " produces capsules containing seeds.");
+    }
+
+    @Override
+    public void contributeToBiodiversity() {
+        System.out.println(name + " supports local pollinators and improves habitat quality.");
+    }
+
+    @Override
+    public void usedForMedicinalPurposes() {
+        System.out.println(name + " is used to make herbal tea and traditional remedies.");
     }
 }

@@ -3,15 +3,33 @@ package com.xworkz.ecosystem.animals.birds;
 import com.xworkz.ecosystem.animals.Bird;
 
 public class Macaw extends Bird {
+
     public Macaw() {
-        super("Macaw", "Tropical rainforests");
+        super("Macaw", "Rainforests of Central and South America");
     }
 
-    public void mimicSounds() {
-        System.out.println(name + " can mimic human speech and various sounds.");
+    @Override
+    public void fly() {
+        System.out.println(name + " flies gracefully with strong, fast wing beats.");
     }
 
-    public void displayBrightColors() {
-        System.out.println(name + " has bright, colorful feathers.");
+    @Override
+    public void layEggs() {
+        System.out.println(name + " lays eggs in tree cavities.");
+    }
+
+    @Override
+    public void buildNest() {
+        System.out.println(name + " nests in hollow tree trunks.");
+    }
+
+    @Override
+    public void sing() {
+        System.out.println(name + " mimics sounds and can talk like humans.");
+    }
+
+    @Override
+    public void migrate() {
+        System.out.println(name + " usually does not migrate but moves locally for food.");
     }
 }

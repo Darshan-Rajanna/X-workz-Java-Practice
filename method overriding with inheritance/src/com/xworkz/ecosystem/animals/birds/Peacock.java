@@ -3,15 +3,33 @@ package com.xworkz.ecosystem.animals.birds;
 import com.xworkz.ecosystem.animals.Bird;
 
 public class Peacock extends Bird {
+
     public Peacock() {
-        super("Peacock", "Forests and grasslands");
+        super("Peacock", "Forests and open farmland");
     }
 
-    public void courtshipDisplay() {
-        System.out.println(name + " spreads its vibrant feathers in a courtship dance.");
+    @Override
+    public void fly() {
+        System.out.println(name + " flies short distances despite its large tail.");
     }
 
-    public void loudCall() {
-        System.out.println(name + " produces loud calls to communicate.");
+    @Override
+    public void layEggs() {
+        System.out.println(name + " lays eggs in ground nests.");
+    }
+
+    @Override
+    public void buildNest() {
+        System.out.println(name + " builds shallow ground nests.");
+    }
+
+    @Override
+    public void sing() {
+        System.out.println(name + " makes loud, piercing calls.");
+    }
+
+    @Override
+    public void migrate() {
+        System.out.println(name + " is mostly non-migratory.");
     }
 }

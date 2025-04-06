@@ -7,11 +7,28 @@ public class Daisy extends FloweringPlant {
         super("Daisy", "Meadows, gardens, grasslands");
     }
 
-    public void bloomInSunlight() {
-        System.out.println(name + " blooms in full sunlight.");
+    @Override
+    public void produceFlowers() {
+        System.out.println(name + " produces white petals with yellow centers.");
     }
 
-    public void spreadEasily() {
-        System.out.println(name + " spreads easily through seeds.");
+    @Override
+    public void attractPollinators() {
+        System.out.println(name + " attracts bees and butterflies with its bright colors and nectar.");
+    }
+
+    @Override
+    public void produceFruits() {
+        System.out.println(name + " produces dry fruit called a cypsela.");
+    }
+
+    @Override
+    public void contributeToBiodiversity() {
+        System.out.println(name + " supports various pollinators and stabilizes ecosystems.");
+    }
+
+    @Override
+    public void usedForMedicinalPurposes() {
+        System.out.println(name + " is used in herbal remedies for anti-inflammatory and calming effects.");
     }
 }

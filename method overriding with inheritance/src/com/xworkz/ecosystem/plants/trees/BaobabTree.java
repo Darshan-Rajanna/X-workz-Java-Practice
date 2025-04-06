@@ -4,14 +4,31 @@ import com.xworkz.ecosystem.plants.Tree;
 
 public class BaobabTree extends Tree {
     public BaobabTree() {
-        super("Baobab Tree", "African savannas");
+        super("Baobab Tree", "Savannas and dry regions");
     }
 
-    public void storeWater() {
-        System.out.println(name + " stores water in its thick trunk to survive droughts.");
+    @Override
+    public void growTall() {
+        System.out.println(name + " grows tall with a thick, water-storing trunk.");
     }
 
-    public void liveForThousandsOfYears() {
-        System.out.println(name + " can live for thousands of years.");
+    @Override
+    public void shedLeaves() {
+        System.out.println(name + " sheds its leaves during the dry season.");
+    }
+
+    @Override
+    public void provideOxygen() {
+        System.out.println(name + " contributes to oxygen production in arid ecosystems.");
+    }
+
+    @Override
+    public void produceFruitsOrSeeds() {
+        System.out.println(name + " produces large fruits known as monkey bread.");
+    }
+
+    @Override
+    public void supportEcosystem() {
+        System.out.println(name + " supports wildlife and stores water in its trunk.");
     }
 }
