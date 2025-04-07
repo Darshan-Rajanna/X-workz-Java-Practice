@@ -6,6 +6,10 @@ import com.xworkz.ecosystem.animals.birds.Eagle;
 import com.xworkz.ecosystem.animals.birds.Peacock;
 import com.xworkz.ecosystem.animals.fish.Goldfish;
 import com.xworkz.ecosystem.animals.fish.Shark;
+import com.xworkz.ecosystem.animals.mammals.Bat;
+import com.xworkz.ecosystem.animals.mammals.Dolphin;
+import com.xworkz.ecosystem.animals.reptiles.Alligator;
+import com.xworkz.ecosystem.animals.reptiles.Chameleon;
 import com.xworkz.ecosystem.organisms.*;
 import com.xworkz.ecosystem.animals.*;
 import com.xworkz.ecosystem.fungi.*;
@@ -93,16 +97,52 @@ public class Main {
         shark.swim();
         shark.liveInWater();
 
+        System.out.println("\n-------- Mammal Types --------");
+        System.out.println("\n-------- Dolphin --------");
+        Dolphin dolphin = new Dolphin("Dolphin", "Oceans and rivers");
+        dolphin.giveBirth();
+        dolphin.produceMilk();
+        dolphin.regulateBodyTemperature();
+        dolphin.haveHairOrFur();
+        dolphin.breatheAir();
+
+        System.out.println("\n-------- Bat --------");
+        Bat bat = new Bat("Bat", "caves");
+        bat.giveBirth();
+        bat.produceMilk();
+        bat.regulateBodyTemperature();
+        bat.haveHairOrFur();
+        bat.breatheAir();
+
+        System.out.println("\n-------- Reptile Types --------");
+        System.out.println("\n-------- Alligator --------");
+        Alligator alligator = new Alligator();
+        alligator.layEggs();
+        alligator.coldBlooded();
+        alligator.shedSkin();
+        alligator.useCamouflage();
+        alligator.crawl();
+
+        System.out.println("\n-------- Chameleon --------");
+        Chameleon chameleon = new Chameleon();
+        chameleon.layEggs();
+        chameleon.coldBlooded();
+        chameleon.shedSkin();
+        chameleon.useCamouflage();
+        chameleon.crawl();
 
     }
 
     private static void testOrganism(Organism organism) {
-        System.out.println("\n--- Testing: " + organism.getClass().getSimpleName() + " ---");
-        organism.grow();
-        organism.reproduce();
-        organism.obtainNutrition();
-        organism.respondToStimuli();
-        organism.respire();
+        if (organism!=null) {
+            System.out.println("\n--- Testing: " + organism.getClass().getSimpleName() + " ---");
+            organism.grow();
+            organism.reproduce();
+            organism.obtainNutrition();
+            organism.respondToStimuli();
+            organism.respire();
+        }
+        else System.out.println("Organism is null");
     }
 
 
