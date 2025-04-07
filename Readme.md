@@ -13,3 +13,5 @@
 - Classes and has-a relations : Assignment of 27 March 2025
 - Inheritance concept simple Demonstration : Assignment of 2 April 2025
 - IS a relation 100 inheritance in java : Assignment of 3 April 2025
+- method overriding with inheritance : Assignment of 4 April 2025
+- Inheritance Casting : Assignment of 7 April 2025
