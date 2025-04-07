@@ -3,15 +3,33 @@ package com.xworkz.ecosystem.animals.mammals;
 import com.xworkz.ecosystem.animals.Mammal;
 
 public class Giraffe extends Mammal {
-    public Giraffe() {
-        super("Giraffe", "African savannas");
+
+    public Giraffe(String name, String habitat) {
+        super(name, habitat);
     }
 
-    public void longNeck() {
-        System.out.println(name + " has a long neck to reach leaves from tall trees.");
+    @Override
+    public void giveBirth() {
+        System.out.println(name + " gives birth standing up; the calf drops to the ground.");
     }
 
-    public void runFast() {
-        System.out.println(name + " can run fast to escape predators.");
+    @Override
+    public void produceMilk() {
+        System.out.println(name + " feeds calves with milk while protecting them from predators.");
+    }
+
+    @Override
+    public void regulateBodyTemperature() {
+        System.out.println(name + " uses its long neck for thermoregulation.");
+    }
+
+    @Override
+    public void haveHairOrFur() {
+        System.out.println(name + " has spotted fur for camouflage.");
+    }
+
+    @Override
+    public void breatheAir() {
+        System.out.println(name + " breathes through long air passages in its neck.");
     }
 }

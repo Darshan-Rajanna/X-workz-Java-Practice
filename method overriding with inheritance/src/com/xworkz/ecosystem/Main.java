@@ -1,5 +1,11 @@
 package com.xworkz.ecosystem;
 
+import com.xworkz.ecosystem.animals.amphibians.Axolotl;
+import com.xworkz.ecosystem.animals.amphibians.Newt;
+import com.xworkz.ecosystem.animals.birds.Eagle;
+import com.xworkz.ecosystem.animals.birds.Peacock;
+import com.xworkz.ecosystem.animals.fish.Goldfish;
+import com.xworkz.ecosystem.animals.fish.Shark;
 import com.xworkz.ecosystem.organisms.*;
 import com.xworkz.ecosystem.animals.*;
 import com.xworkz.ecosystem.fungi.*;
@@ -35,6 +41,59 @@ public class Main {
         testOrganism(new Fern("Maidenhair Fern", "Moist, shady areas"));
         testOrganism(new Cactus("Saguaro", "Desert"));
         testOrganism(new FloweringPlant("Rose", "Garden"));
+
+        System.out.println("\n-------- Amphibian Types --------");
+        System.out.println("\n-------- Axolotl --------");
+        Axolotl axolotl=new Axolotl();
+        axolotl.liveInWaterAndLand();
+        axolotl.layEggsInWater();
+        axolotl.coldBlooded();
+        axolotl.moistSkin();
+        axolotl.undergoMetamorphosis();
+
+        System.out.println("\n-------- Newt --------");
+        Newt newt=new Newt();
+        newt.liveInWaterAndLand();
+        newt.layEggsInWater();
+        newt.coldBlooded();
+        newt.moistSkin();
+        newt.undergoMetamorphosis();
+
+        System.out.println("\n-------- Bird Types --------");
+        System.out.println("\n-------- Eagle --------");
+        Eagle eagle=new Eagle();
+        eagle.fly();
+        eagle.buildNest();
+        eagle.layEggs();
+        eagle.migrate();
+        eagle.sing();
+
+        System.out.println("\n-------- Peacock --------");
+        Peacock peacock=new Peacock();
+        peacock.fly();
+        peacock.buildNest();
+        peacock.layEggs();
+        peacock.migrate();
+        peacock.sing();
+
+        System.out.println("\n-------- Fish Types --------");
+        System.out.println("\n-------- Gold Fish --------");
+        Goldfish goldfish=new Goldfish();
+        goldfish.layEggs();
+        goldfish.hasFins();
+        goldfish.breatheThroughGills();
+        goldfish.swim();
+        goldfish.liveInWater();
+
+        System.out.println("\n-------- Shark --------");
+        Shark shark=new Shark();
+        shark.layEggs();
+        shark.hasFins();
+        shark.breatheThroughGills();
+        shark.swim();
+        shark.liveInWater();
+
+
     }
 
     private static void testOrganism(Organism organism) {
@@ -45,4 +104,6 @@ public class Main {
         organism.respondToStimuli();
         organism.respire();
     }
+
+
 }

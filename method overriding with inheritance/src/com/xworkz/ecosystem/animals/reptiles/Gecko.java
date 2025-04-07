@@ -4,14 +4,31 @@ import com.xworkz.ecosystem.animals.Reptile;
 
 public class Gecko extends Reptile {
     public Gecko() {
-        super("Gecko", "Tropical forests, deserts, and homes");
+        super("Gecko", "Forests, deserts, and human homes");
     }
 
-    public void climbWalls() {
-        System.out.println(name + " can climb walls and ceilings using adhesive toe pads.");
+    @Override
+    public void crawl() {
+        System.out.println(name + " crawls vertically using sticky toe pads.");
     }
 
-    public void nightVision() {
-        System.out.println(name + " has excellent night vision for hunting in the dark.");
+    @Override
+    public void layEggs() {
+        System.out.println(name + " lays small eggs in hidden locations.");
+    }
+
+    @Override
+    public void coldBlooded() {
+        System.out.println(name + " needs external heat to stay active.");
+    }
+
+    @Override
+    public void shedSkin() {
+        System.out.println(name + " sheds skin and may eat it for nutrients.");
+    }
+
+    @Override
+    public void useCamouflage() {
+        System.out.println(name + " blends in with surroundings to hide from predators.");
     }
 }

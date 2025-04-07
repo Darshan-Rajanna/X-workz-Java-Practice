@@ -4,14 +4,31 @@ import com.xworkz.ecosystem.animals.Reptile;
 
 public class Iguana extends Reptile {
     public Iguana() {
-        super("Iguana", "Rainforests and dry regions");
+        super("Iguana", "Tropical rainforests and coastal regions");
     }
 
-    public void herbivorousDiet() {
-        System.out.println(name + " is a herbivore that mainly eats leaves and fruits.");
+    @Override
+    public void crawl() {
+        System.out.println(name + " crawls with strong legs and a long tail.");
     }
 
-    public void tailDefense() {
-        System.out.println(name + " uses its long tail to whip predators as a defense mechanism.");
+    @Override
+    public void layEggs() {
+        System.out.println(name + " lays eggs in burrows dug in soft soil.");
+    }
+
+    @Override
+    public void coldBlooded() {
+        System.out.println(name + " relies on sunlight to warm its body.");
+    }
+
+    @Override
+    public void shedSkin() {
+        System.out.println(name + " sheds its skin in large sections.");
+    }
+
+    @Override
+    public void useCamouflage() {
+        System.out.println(name + " uses green coloration to hide in foliage.");
     }
 }

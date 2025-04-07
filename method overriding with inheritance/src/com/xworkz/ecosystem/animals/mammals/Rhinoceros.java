@@ -3,15 +3,33 @@ package com.xworkz.ecosystem.animals.mammals;
 import com.xworkz.ecosystem.animals.Mammal;
 
 public class Rhinoceros extends Mammal {
-    public Rhinoceros() {
-        super("Rhinoceros", "Grasslands and savannas");
+
+    public Rhinoceros(String name, String habitat) {
+        super(name, habitat);
     }
 
-    public void useHorn() {
-        System.out.println(name + " uses its horn for defense and dominance.");
+    @Override
+    public void giveBirth() {
+        System.out.println(name + " gives birth to one calf after long gestation.");
     }
 
-    public void thickSkin() {
-        System.out.println(name + " has a thick, armor-like skin for protection.");
+    @Override
+    public void produceMilk() {
+        System.out.println(name + " feeds milk to its calf and guards it closely.");
+    }
+
+    @Override
+    public void regulateBodyTemperature() {
+        System.out.println(name + " wallows in mud to cool down.");
+    }
+
+    @Override
+    public void haveHairOrFur() {
+        System.out.println(name + " has minimal hair but thick skin.");
+    }
+
+    @Override
+    public void breatheAir() {
+        System.out.println(name + " breathes air through nostrils on the snout.");
     }
 }
