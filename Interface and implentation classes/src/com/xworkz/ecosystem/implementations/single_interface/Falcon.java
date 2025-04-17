@@ -4,6 +4,12 @@ import com.xworkz.ecosystem.interfaces.Bird;
 
 public class Falcon implements Bird {
     public void layEggs() { System.out.println("Falcon lays eggs in cliffs"); }
+
+    @Override
+    public void buildNest() {
+
+    }
+
     public void fly() { System.out.println("Falcon flies at high speeds"); }
     public void sing() { System.out.println("Falcon does not sing, it screeches"); }
 }

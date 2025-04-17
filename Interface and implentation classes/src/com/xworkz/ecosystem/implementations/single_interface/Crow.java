@@ -4,6 +4,11 @@ import com.xworkz.ecosystem.interfaces.Bird;
 
 public class Crow implements Bird {
     public void layEggs() { System.out.println("Crow lays eggs in nests"); }
+
+    public void buildNest() {
+
+    }
+
     public void fly() { System.out.println("Crow flies skillfully, known for intelligence"); }
-    public void sing() { System.out.println("Crow caws loudly"); }
-}
+ }
+

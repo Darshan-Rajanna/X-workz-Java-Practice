@@ -1,4 +1,7 @@
 package com.xworkz.ecosystem;
+import com.xworkz.ecosystem.implementations.dual_interface.Darshan;
+import com.xworkz.ecosystem.implementations.dual_interface.Female;
+import com.xworkz.ecosystem.implementations.multiple_interface.Aryan;
 import com.xworkz.ecosystem.implementations.single_interface.*;
 
 public class Main {
@@ -83,57 +86,91 @@ public class Main {
 
         Maple maple = new Maple();
         System.out.println("Class Maple with single Interface implementation");
+        maple.growTall();
+        maple.provideShade();
+        maple.produceOxygen();
 
         Lily lily = new Lily();
         System.out.println("Class Lily with single Interface implementation");
+        lily.attractPollinators();
+        lily.produceFlowers();
+        lily.produceFruits();
 
         Giraffe giraffe = new Giraffe();
         System.out.println("Class Giraffe with single Interface implementation");
+        giraffe.giveBirth();
+        giraffe.produceMilk();
+        giraffe.regulateBodyTemperature();
 
         Falcon falcon = new Falcon();
         System.out.println("Class Falcon with single Interface implementation");
+        falcon.fly();
+        falcon.layEggs();
+        falcon.sing();
 
         Tuna tuna = new Tuna();
         System.out.println("Class Tuna with single Interface implementation");
+        tuna.layEggs();
+        tuna.swim();
+        tuna.layEggsInWater();
 
         Birch birch = new Birch();
         System.out.println("Class Birch with single Interface implementation");
+        birch.convertSunlightToEnergy();
+        birch.photosynthesize();birch.produceOxygen();
+
 
         Daisy daisy = new Daisy();
         System.out.println("Class Daisy with single Interface implementation");
+        daisy.grow();
+        daisy.photosynthesize();
+        daisy.produceOxygen();
 
         Wolf wolf = new Wolf();
         System.out.println("Class Wolf with single Interface implementation");
+        wolf.giveBirth();
+        wolf.produceMilk();wolf.regulateBodyTemperature();
+
 
         Owl owl = new Owl();
         System.out.println("Class Owl with single Interface implementation");
+        owl.fly();
+        owl.buildNest();
+        owl.layEggs();
 
         Salmonid salmonid = new Salmonid();
         System.out.println("Class Salmonid with single Interface implementation");
+        salmonid.swim();
+        salmonid.layEggs();
 
-        Cedar cedar = new Cedar();
-        System.out.println("Class Cedar with single Interface implementation");
+        Darshan darshan = new Darshan();
+        System.out.println("Class Darshan with Dual Interface Implementation");
+        darshan.contributeToTerrestrialEcosystem();
+        darshan.haveLandAdaptations();
+        darshan.liveOnLand();
+        darshan.produceMilk();
+        darshan.giveBirth();
 
-        Orchid orchid = new Orchid();
-        System.out.println("Class Orchid with single Interface implementation");
+        Female female = new Female();
+        System.out.println("Class Female with Dual Interface Implementation");
+        female.competeForResources();
+        female.defendTerritory();
+        female.giveBirth();
+        female.produceMilk();
+        female.competeForResources();
 
-        Hippopotamus hippopotamus = new Hippopotamus();
-        System.out.println("Class Hippopotamus with single Interface implementation");
-
-        Crow crow = new Crow();
-        System.out.println("Class Crow with single Interface implementation");
-
-        Carp carp = new Carp();
-        System.out.println("Class Carp with single Interface implementation");
-
-        CherryTree cherryTree = new CherryTree();
-        System.out.println("Class CherryTree with single Interface implementation");
-
-        Cactus cactus = new Cactus();
-        System.out.println("Class Cactus with single Interface implementation");
-
-        Flamingo flamingo = new Flamingo();
-        System.out.println("Class Flamingo with single Interface implementation");
-
+        Aryan aryan=new Aryan();
+        System.out.println("Class Aryan with Multiple/5 Interface Implementation");
+        aryan.avoidDetection();
+        aryan.beAtHigherTrophicLevel();
+        aryan.blendWithEnvironment();
+        aryan.contributeToTerrestrialEcosystem();
+        aryan.consumeMeat();
+        aryan.competeForResources();
+        aryan.regulateBodyTemperature();
+        aryan.defendTerritory();
+        aryan.giveBirth();
+        aryan.produceMilk();
+        aryan.enhanceSurvival();
     }
 }
