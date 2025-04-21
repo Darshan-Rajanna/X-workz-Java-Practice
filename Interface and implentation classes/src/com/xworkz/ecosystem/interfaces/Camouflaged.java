@@ -1,7 +1,9 @@
 package com.xworkz.ecosystem.interfaces;
 
 public interface Camouflaged {
-    void blendWithEnvironment();
+    default void blendWithEnvironment(){
+        System.out.println("Default Camouflaged");
+    };
 
     void avoidDetection();
 

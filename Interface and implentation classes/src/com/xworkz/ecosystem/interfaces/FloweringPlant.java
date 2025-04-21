@@ -1,7 +1,9 @@
 package com.xworkz.ecosystem.interfaces;
 
 public interface FloweringPlant {
-    void produceFlowers();
+    default void produceFlowers(){
+        System.out.println("default Flowering plants");
+    };
     void produceFruits();
     void attractPollinators();
 }

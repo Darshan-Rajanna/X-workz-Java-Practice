@@ -5,5 +5,7 @@ public interface Aquatic {
 
     void haveAquaticAdaptations();
 
-    void contributeToAquaticEcosystem();
+    default void contributeToAquaticEcosystem(){
+        System.out.println("Aquatic default");
+    };
 }

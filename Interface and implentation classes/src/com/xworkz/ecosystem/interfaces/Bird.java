@@ -1,7 +1,9 @@
 package com.xworkz.ecosystem.interfaces;
 
 public interface Bird {
-    void fly();
+    default void fly(){
+        System.out.println("default Bird");
+    };
     void layEggs();
     void buildNest();
 }

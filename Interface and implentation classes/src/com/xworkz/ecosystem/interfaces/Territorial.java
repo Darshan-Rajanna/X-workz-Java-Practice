@@ -1,7 +1,9 @@
 package com.xworkz.ecosystem.interfaces;
 
 public interface Territorial {
-    void defendTerritory();
+    default void defendTerritory(){
+        System.out.println("default Territory");
+    };
 
     void markBoundaries();
 

@@ -3,6 +3,8 @@ package com.xworkz.ecosystem.implementations.single_interface;
 import com.xworkz.ecosystem.interfaces.Plant;
 
 public class Birch implements Plant {
+
+    @Override
     public void photosynthesize() { System.out.println("Birch tree uses sunlight to make food"); }
 
 

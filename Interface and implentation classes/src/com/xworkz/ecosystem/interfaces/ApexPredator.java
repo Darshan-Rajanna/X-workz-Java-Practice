@@ -5,5 +5,7 @@ public interface ApexPredator {
 
     void regulatePreyPopulations();
 
-    void haveNoNaturalPredators();
+    default void haveNoNaturalPredators(){
+        System.out.println("ApexPredator default");
+    };
 }

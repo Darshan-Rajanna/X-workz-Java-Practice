@@ -1,7 +1,9 @@
 package com.xworkz.ecosystem.interfaces;
 
 public interface WaterPurifier {
-    void filterImpurities();
+    default void filterImpurities(){
+        System.out.println("default WaterPurifier");
+    };
 
     void maintainWaterQuality();
 

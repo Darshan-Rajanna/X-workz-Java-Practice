@@ -1,7 +1,9 @@
 package com.xworkz.ecosystem.interfaces;
 
 public interface LiveBearer {
-    void giveBirthToLiveYoung();
+    default void giveBirthToLiveYoung(){
+        System.out.println("default LiveBearer");
+    };
 
     void provideInternalNourishment();
 

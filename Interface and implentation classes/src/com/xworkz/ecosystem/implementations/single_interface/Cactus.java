@@ -3,6 +3,7 @@ package com.xworkz.ecosystem.implementations.single_interface;
 import com.xworkz.ecosystem.interfaces.FloweringPlant;
 
 public class Cactus implements FloweringPlant {
+    @Override
     public void produceFlowers() {
         System.out.println("Cactus produces showy flowers");
     }

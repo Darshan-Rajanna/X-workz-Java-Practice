@@ -1,7 +1,11 @@
 package com.xworkz.ecosystem.interfaces;
 
 public interface Mammal{
-    void giveBirth();
+    default void giveBirth(){
+        System.out.println("default Mammal");
+    };
     void produceMilk();
     void regulateBodyTemperature();
+
+    void aerialInfo();
 }

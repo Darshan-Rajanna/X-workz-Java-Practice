@@ -1,7 +1,9 @@
 package com.xworkz.ecosystem.interfaces;
 
 public interface Tree {
-    void growTall();
+    default void growTall(){
+        System.out.println("Default Tree");
+    };
     void produceOxygen();
     void provideShade();
 }

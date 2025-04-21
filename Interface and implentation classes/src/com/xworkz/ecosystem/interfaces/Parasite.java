@@ -1,7 +1,9 @@
 package com.xworkz.ecosystem.interfaces;
 
 public interface Parasite {
-    void dependOnHost();
+    default void dependOnHost(){
+        System.out.println("Default Parasite");
+    };
 
     void harmHost();
 
