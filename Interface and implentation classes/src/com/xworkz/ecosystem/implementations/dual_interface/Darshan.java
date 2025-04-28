@@ -20,6 +20,11 @@ public class Darshan implements Mammal, Terrestrial {
     }
 
     @Override
+    public void aerialInfo() {
+
+    }
+
+    @Override
     public void liveOnLand() {
         System.out.println("can live on land");
     }

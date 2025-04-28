@@ -39,6 +39,11 @@ public class Aryan implements Mammal, Terrestrial, Territorial, Camouflaged, Car
         System.out.println("He can regulate body temperature");
     }
 
+    @Override
+    public void aerialInfo() {
+
+    }
+
     public void liveOnLand() {
         System.out.println("He can live on land and in dreams too acc to his friend");
     }
